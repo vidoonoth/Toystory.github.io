@@ -227,9 +227,9 @@ footer h2{
     }
     
     /* buzz lightyear */
-    .buzz-content{
+    .buzz-lightyear-content{
         display: flex;
-        background-color: #EBC52F;
+        background-color: #F0F0F0;
         height: 100vh;
         align-items: center;
         justify-content: space-around;
