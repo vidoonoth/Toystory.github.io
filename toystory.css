@@ -163,6 +163,7 @@ footer h2{
         background-color:#5CBFFF;
         padding-bottom: 20px;
         height: 100vh;
+        place-content: center;
     }
     .logo{
         width: 100%;
@@ -196,23 +197,18 @@ footer h2{
     .woody-content{
         display: flex;
         background-color: #EBC52F;
-        height: 600px;
+        height: 400px;
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
     
     .gambar-woody{
-        height: 200px;
+        height: 350px;
         margin: 40px 0 0 0;
     }
-    
-    .teks-woody{
-        text-align: center;
-    }
-    
     .nama-panjang-woody{
-        font-size: 10px;
+        font-size: 18px;
         color: white;
         font-family: Rubik;
         font-weight: bold;
