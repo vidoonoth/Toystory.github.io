@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+.intro{
+    background-color:#5CBFFF;
+    padding-bottom: 20px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+}
+.logo img{
+    width: 150px;
+    margin: 20px auto;
+}
+.logo-char{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-char p{
+    font-family: Roboto;
+    text-align: center;
+    font-size: 160px;
+    letter-spacing: -8px;
+    font-weight: bold;
+    color: white;
+}
+
+.logo-char img{
+  width: 350px;
+  position: relative;
+  bottom: 40px;
+}
+.main-char{
+    font-size: 80px;
+    font-family: Rubik;
+    text-align: center;
+    color: white;
+}
+
+/* woody */
+.woody-content{
+    display: flex;
+    background-color: #EBC52F;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.gambar-woody{
+    height: 500px;
+    margin: 40px 0 0 100px;
+}
+
+.teks-woody{
+    text-align: center;
+}
+
+.nama-panjang-woody{
+    font-size: 60px;
+    color: white;
+    font-family: Rubik;
+    font-weight: bold;
+    text-align: right;
+}
+
+.deskripsi-woody{ 
+    font-size: 16px;
+    color: white;
+    font-family: Roboto;
+    width: 50rem;
+    text-align: right;
+}
+
+/* buzz lightyear */
+.buzz-lightyear-content{
+    background-color:#F0F0F0;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gambar-buzz{
+    height: 400px;
+}
+.nama-panjang-buzz{
+    font-family: Rubik;
+    font-size: 60px;
+}
+
+.deskripsi-buzz{
+    font-family: Roboto;
+    width: 40rem;
+}
+
+/* foto-foto */
+.galery{
+    background-color:#5CBFFF;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.galery h1{
+    margin-top: 70px;
+    font-size: 50px;
+    color: white;
+    font-family: Rubik;
+    margin-bottom: 30px;
+}
+.kumpulan-foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.kumpulan-foto-toy-story1{
+    height: 500px;
+    border: 8px solid white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kumpulan-foto-toy-story2{
+    height: 500px;
+    border: 8px solid white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kumpulan-foto-toy-story3{
+    height: 250px;
+    border: 8px solid white; 
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.kumpulan-foto-toy-story4{
+    height: 300px;
+    border: 8px solid white; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer{
+    background-color:#58bbfd;
+    padding: 5px;
+    display: flex;
+}
+
+footer h2{
+    margin: auto;
+    list-style: none;
+    font-family: roboto;
+    color: #f9f9f9;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
