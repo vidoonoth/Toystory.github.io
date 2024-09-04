@@ -198,7 +198,6 @@ footer h2{
         display: flex;
         background-color: #EBC52F;
         height: 100vh;
-        display: flex;
         align-items: center;
         justify-content: space-around;
     }
@@ -208,42 +207,87 @@ footer h2{
         margin: 40px 0 0 0;
     }
     .nama-panjang-woody{
-        font-size: 18px;
+        font-size: 25px;
         color: white;
         font-family: Rubik;
         font-weight: bold;
         text-align: right;
     }
-    
+    .teks-woody{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
     .deskripsi-woody{ 
         font-size: 12px;
         color: white;
         font-family: Roboto;
-        width: 10rem;
+        width: 20rem;
         text-align: right;
     }
     
     /* buzz lightyear */
+    .buzz-content{
+        display: flex;
+        background-color: #EBC52F;
+        height: 100vh;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .gambar-buzz{
+        height: 250px;
+        margin: 40px 0 0 0;
+    }
+    .nama-panjang-buzz{
+        font-size: 25px;
+        color: rgb(23, 23, 23);
+        font-family: Rubik;
+        font-weight: bold;
+        text-align: left;
+    }
+    .teks-buzz{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .deskripsi-buzz{ 
+        font-size: 12px;
+        color: rgb(7, 7, 7);
+        font-family: Roboto;
+        width: 20rem;
+        text-align: left;
+    }
+
+/* 
     .buzz-lightyear-content{
         background-color:#F0F0F0;
         height: 550px;
         display: flex;
-        justify-content: center;
+        gap: 10px;
+        justify-content: space-around;
         align-items: center;
     }
     .gambar-buzz{
-        height: 400px;
+        height: 100px;
+    }
+    .teks-buzz{
+        margin-left: 10px;
+        background-color: #58bbfd;
+       max-width: 200px;
+        height: 200px;
+        word-wrap: break-word;
     }
     .nama-panjang-buzz{
         font-family: Rubik;
-        font-size: 60px;
+        font-size: 25px;
     }
     
     .deskripsi-buzz{
         font-family: Roboto;
-        width: 40rem;
+        font-size: 12px;
     }
-    
+     */
     /* foto-foto */
     .galery{
         background-color:#5CBFFF;
